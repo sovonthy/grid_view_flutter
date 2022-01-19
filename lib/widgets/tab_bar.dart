@@ -37,9 +37,9 @@ class RoomTabBarView extends StatelessWidget {
               SizedBox(width: 24)
             ],
             backgroundColor: Colors.white,
-            bottom: const TabBar(
+            bottom: TabBar(
               isScrollable: true,
-              labelColor: Colors.black,
+              labelColor: Theme.of(context).primaryColor,
               tabs: [
                 Tab(icon: Text("LIVING ROOM")),
                 Tab(icon: Text("KITCHEN ROOM")),
